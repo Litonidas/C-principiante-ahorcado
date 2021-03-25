@@ -1,0 +1,37 @@
+
+    ####   ##  ##   ####   #####    #####   ####   #####    ####
+   ##  ##  ##  ##  ##  ##  ##  ##  ##      ##  ##  ##  ##  ##  ##
+   ######  ######  ##  ##  #####   ##      ######  ##  ##  ##  ##
+   ##  ##  ##  ##   ####   ##  ##   #####  ##  ##  #####    ####
+
+El juego el Ahorcado de Manuel Peral sigue las reglas del juego clasico.
+
+OBJETIVO
+
+El objetivo del juego consiste en descubrir una palabra adivinando letra por letra las que la componen.
+
+El jugador debera escojer una letra al azar del abecedario ingles (todas las letras menos la %#164), 
+cuando una letra introducida por el usuario coincida con una letra de la palabra esta sera mostrada 
+en la posicion que le corresponde en la palabra.
+
+Cuando la letra introducida por el jugador no coincida esta restara una de las 7 vidas que se disponen 
+al empezar el juego y se dibujara una parte de cuerpo del muñeco.
+
+Cuando esten dibujadas las 7 partes (cuerda, cabeza, tronco, brazo derecho, brazo izquierdo, pierna derecha). 
+la septima parte, la pierna izquierda dara por terminada la partida.
+
+SI SE REPITE UNA LETRA, ESTA JUGADA CONTARA COMO UNA LETRA ERRONEA.
+
+PUNTUACION
+
+La puntuacion del juego sera por partida.
+	
+	El jugador comenzara con 0 puntos
+	Cada letra acertada sumara 2 puntos
+	Cada letra erronea restara 1 punto(-1 punto)
+	Si el jugador adivina la palabra se le sumara 10 puntos
+
+GANADOR 
+
+Si el jugador adivina la palabra gana la partida.
+
